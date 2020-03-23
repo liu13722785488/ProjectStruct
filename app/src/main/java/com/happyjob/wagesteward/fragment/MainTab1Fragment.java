@@ -37,7 +37,7 @@ public class MainTab1Fragment extends BaseFragment implements OnClickListener {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        //inflater的时候最好是用3个参数的。
+        //adapter里面inflater的时候最好是用3个参数的。最后一个为null.
 		mBinding=FragmentMaintab1LayoutBinding.inflate(inflater);
         //这个里面没办法传mBingding.getRoot()
         View messageLayout = inflater.inflate(R.layout.fragment_maintab1_layout, container, false);
