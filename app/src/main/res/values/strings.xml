@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">projectStruct</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 首页底部导航 -->
+    <string name="main_tab_1">工资</string>
+    <string name="main_tab_2">增值</string>
+    <string name="main_tab_3">借款</string>
+    <string name="main_tab_4">我的</string>
+    <string name="repress_exit">再按一次退出程序</string>
+    <!-- toast提示 -->
+    <string name="toast_loading">正在加载数据&#8230;</string>
+    <string name="toast_submiting">正在提交数据&#8230;</string>
+    <string name="toast_subming_ok">提交成功</string>
+    <string name="toast_network_error">网络不给力\n检查网络或稍后再试</string>
+    <string name="toast_no_found_error">没有此用户</string>
+    <string name="toast_no_found_restart_load">点击重新加载</string>
+    <string name="toast_customer_not_authority">只有客户负责人有权操作</string>
+</resources>

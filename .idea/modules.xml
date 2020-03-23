@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" filepath="$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" group="ProjectStruct/OkhttpUtils" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectStruct.iml" filepath="$PROJECT_DIR$/ProjectStruct.iml" group="ProjectStruct" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ProjectStruct/app" />
+    </modules>
+  </component>
+</project>

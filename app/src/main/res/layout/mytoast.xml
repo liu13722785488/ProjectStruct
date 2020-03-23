@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Transparent" >
+
+    <RelativeLayout
+        android:id="@+id/imagerl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:id="@+id/showimage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/probar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/data_progress" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/showinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagerl"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="网络不给力检查网络或稍后再试"
+        android:visibility="gone"
+        android:textColor="@color/black_write"
+        android:textSize="@dimen/fonsize1" />
+
+</RelativeLayout>

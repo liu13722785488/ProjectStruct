@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="root_bg">#f7f5ed</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="back">#08a1e8</color>
+
+    <!-- app login -->
+    <color name="app_theme_color">#fdf087</color>
+    <color name="app_title_choose_color">#FFFFFF</color>
+    <color name="app_root_bg">#F3F3F3</color>
+    <!-- 标题栏背景颜色 -->
+    <color name="title_back_color">#ffffff</color>
+    <!-- 标题栏 标题颜色 -->
+    <color name="title_text_color">#5dcdbf</color>
+    <color name="main_bg_color">#04508b</color>
+    <color name="orange">#FFA011</color>
+    <color name="red">#DF5431</color>
+    <color name="blue">#299BE8</color>
+    <color name="gray">#e0d5d5d5</color>
+    <color name="green">#ff88b628</color>
+    <color name="transparent">#00000000</color>
+    <color name="Transparent">#00FFFFFF</color>
+    <color name="black">#ff2c2823</color>
+    <color name="gold">#ffb89766</color>
+
+    <!-- 标题颜色 -->
+    <color name="common_title_color">#000000</color>
+    <color name="bgColor">#fff2f2f2</color>
+    <color name="app_color">#ff17c2ab</color>
+    <color name="app_text_color">#ff3d3d3d</color>
+
+
+    <!-- CRM系统开始 后期上面的颜色值可以慢慢删除 -->
+    <color name="divide_line">#E8E8E8</color>
+    <color name="main_app_color">#5dcdbf</color>
+    <color name="main_app_color_press">#22bda8</color>
+    <color name="main_back">#f1f7f7</color>
+    <color name="login_title_color">#767676</color>
+    <color name="search_bg">#CDC9C8</color>
+    <color name="item_bg">#F2F2F4</color>
+    <color name="btn_gray">#AAAAAA</color>
+
+    <!-- 半透明 -->
+
+    <color name="theme_color">#fdf087</color>
+    <color name="crm_gray">#7C7C7C</color>
+    <color name="app_theme_text_color">#FAC64B</color>
+    <color name="black_write">#ff888888</color>
+    <color name="user_font_submitsuccessful">#65c857</color>
+    <color name="user_font_networkerror">#ffae01</color>
+
+
+
+    <color name="bg_color">#efefef</color>
+
+
+</resources>

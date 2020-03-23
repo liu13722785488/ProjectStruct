@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_root_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="@dimen/fonsize1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_type" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/fullname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="工商银行"
+                android:textColor="@color/black_write"
+                android:textSize="@dimen/fonsize" />
+
+            <TextView
+                android:id="@+id/nums_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullname_tv"
+                android:text="尾号："
+                android:textColor="@color/black_write"
+                android:textSize="@dimen/fonsize" />
+        </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="26.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fonsize2" />
+    </RelativeLayout>
+
+</RelativeLayout>
