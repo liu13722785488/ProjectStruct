@@ -13,9 +13,6 @@ import butterknife.ButterKnife;
 
 public class Glide2Activity extends Activity {
 
-
-
-
 //    private ActivityGlideBinding mBinding;//用的viewBinding
     @BindView(R.id.button1)
     Button button1;
