@@ -7,6 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.request.RequestOptions;
 import com.happyjob.wagesteward.R;
+import com.happyjob.wagesteward.utils.GlideUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -45,8 +46,8 @@ public class Glide2Activity extends Activity {
 //        Glide.with(GlideActivity.this).load(url).apply(options)
 //                .into(mBinding.imageView);
 
-        自己封装的方法类
-       GlideUtil.load(this,url,mImageView,options);
+//        自己封装的方法类
+       GlideUtil.load(this,url,imageView,options);
 
 
     }
