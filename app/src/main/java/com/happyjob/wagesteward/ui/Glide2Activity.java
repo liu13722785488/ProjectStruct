@@ -45,8 +45,8 @@ public class Glide2Activity extends Activity {
 //        Glide.with(GlideActivity.this).load(url).apply(options)
 //                .into(mBinding.imageView);
 
-        //自己封装的方法类
-//        GlideUtil.load(this,url,mImageView,options);
+        自己封装的方法类
+       GlideUtil.load(this,url,mImageView,options);
 
 
     }
